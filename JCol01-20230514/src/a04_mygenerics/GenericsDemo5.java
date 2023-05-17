@@ -34,9 +34,9 @@ public class GenericsDemo5 {
 
 
 }
-class Ye{
-}
-class Fu extends Ye {
-}
-class Zi extends Ye {
-}
+//class Ye{
+//}
+//class Fu extends Ye {
+//}
+//class Zi extends Ye {
+//}
