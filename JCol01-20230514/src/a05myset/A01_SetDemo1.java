@@ -2,6 +2,7 @@ package a05myset;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.function.Consumer;
 
 /**
  * @author Steven
@@ -25,5 +26,15 @@ public class A01_SetDemo1 {
         System.out.println(r1);
         System.out.println(r2);
         System.out.println(s);
+
+        //3.遍历方式
+        //增强for
+        for (String s1 : s) {
+            System.out.println(s1);
+        }
+        //lambda表达式
+        s.forEach(str-> System.out.println(str)
+
+        );
     }
 }
