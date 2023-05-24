@@ -1,5 +1,7 @@
 package com.itheima.a01mymap;
 
+import java.util.TreeMap;
+
 /**
  * @author Steven
  * @ClassName A10_TreeMapDemo3.java
@@ -10,4 +12,17 @@ package com.itheima.a01mymap;
  * @createTime 2023-05-23 22:29
  **/
 public class A10_TreeMapDemo3 {
+    public static void main(String[] args) {
+        String s ="aababcabcdabcde";
+        TreeMap<Character,Integer> map = new TreeMap<>();
+
+
+        for (int i = 0; i < s.length();i++) {
+             char ch = s.charAt(i);
+            map.put(ch,map.getOrDefault(ch,0)+1);
+        }
+
+        map.forEach((key,value)-> System.out.print(key+"("+value+")"+" "));
+
+    }
 }
