@@ -8,6 +8,6 @@ public class Ggs {
     public static void main(String[] args) {
         System.out.println("ggs2023.05.26\n" +
                 "\n" +
-                "ggs2023.05.27");
+                "ggs2023.05.27"+"ggs202305628");
     }
 }
